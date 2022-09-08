@@ -15,30 +15,37 @@ container.addEventListener('click', function (e) {
     menu.classList.remove('activo')
   }
 })
-const secPort = document.querySelector('portafolio')
-const servPrev = document.getElementById('sprev')
-const servNext = document.getElementById('snext')
-const porfPrev =document.getElementById('pprev')
-const porfNext= document.getElementById('pnext')
-const servicios = document.querySelector('.servicios__card')
-const portafolio= document.querySelector('.porf__contenedor')
 
-servPrev.addEventListener('click', ()=>{ 
-       servicios.scrollLeft = -200
-      console.log('hola')
-   })
+
+// const secPort = document.querySelector('portafolio')
+// const servPrev = document.getElementById('sprev')
+// const servNext = document.getElementById('snext')
+// const porfPrev =document.getElementById('pprev')
+// const porfNext= document.getElementById('pnext')
+// const servicios = document.querySelector('.servicios__card')
+// const portafolio= document.querySelector('.porf__contenedor')
+
+// servPrev.addEventListener('click', ()=>{ 
+//        servicios.scrollLeft = -200
+//       console.log('hola')
+//    })
    
-   servNext.addEventListener('click', () => {
-       servicios.scrollLeft +=200
-       console.log('hola')
-   })
+//    servNext.addEventListener('click', () => {
+//        servicios.scrollLeft +=200
+//        console.log('hola')
+//    })
    
-   porfPrev.addEventListener('click' , ()=>{
-       portafolio.scrollLeft -=200
-       console.log('hola')
-   })
+//    porfPrev.addEventListener('click' , ()=>{
+//        portafolio.scrollLeft -=200
+//        console.log('hola')
+//    })
    
-   porfNext.addEventListener('click' , ()=>{
-       portafolio.scrollLeft +=200
-       console.log('hola')
-   })
+//    porfNext.addEventListener('click' , ()=>{
+//        portafolio.scrollLeft +=200
+//        console.log('hola')
+//    })
+
+
+
+
+
