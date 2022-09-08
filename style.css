@@ -211,13 +211,13 @@ img {
     }
 
     .portada__foto--contenedor {
-        width: 400px;
+        max-width: 400px;
         order: 1;
     }
 
     .portada__foto--contenedor::before {
         position: absolute;
-        top: 35%;
+        top: 350px;
         left: 50%;
         content: '';
         background-color: #2a2b3d;
@@ -774,13 +774,13 @@ img {
     }
 
     .portada__foto--contenedor {
-        width: 400px;
+        max-width: 400px;
         order: 1;
     }
 
     .portada__foto--contenedor::before {
         position: absolute;
-        top: 35%;
+        top: 350px;
         left: 50%;
         content: '';
         background-color: #2a2b3d;
